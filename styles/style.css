@@ -147,9 +147,18 @@ main {
         padding: 25px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
         gap: 50px;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        padding: 0 25px;
     }
 }
 
@@ -159,7 +168,8 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
         gap: 50px;
     }
