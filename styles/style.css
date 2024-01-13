@@ -6,9 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Work Sans', sans-serif;
+}
+
+body,
+footer {
+    background-color: #FFF;
 }
 
 .btn-primary {
@@ -23,10 +26,6 @@
     cursor: pointer;
 }
 
-.color-primary {
-    color: #727272;
-}
-
 .title-primary {
     color: #131313;
     font-size: 2.8rem;
@@ -39,6 +38,12 @@
     font-weight: 400;
     margin-top: 35px;
     line-height: 1.6rem;
+}
+
+.color-primary,
+.card-title,
+.cards-description {
+    color: #727272;
 }
 
 /* Header styles */
@@ -223,7 +228,6 @@ main {
 }
 
 .facts-card-container .cards .card-title {
-    color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 5px;
@@ -243,7 +247,23 @@ main {
 }
 
 /* Footer section styles */
+footer {
+    text-align: center;
+}
 
+.footer-content {
+    max-width: 1440px;
+    margin: 130px auto;
+    border-radius: 8px;
+    padding: 40px;
+    background: #FFF4E7;
+}
+
+.footer-content p {
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 
 /* Responsive media queries */
 /* Mobile device */
@@ -267,7 +287,8 @@ main {
 
     .teams-content,
     .facts-section,
-    .features {
+    .features,
+    footer {
         padding: 0 25px;
     }
 
@@ -303,7 +324,8 @@ main {
 
     .facts-section,
     .sponsors,
-    .features {
+    .features,
+    footer {
         padding: 0 25px;
     }
 
