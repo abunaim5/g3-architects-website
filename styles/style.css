@@ -33,11 +33,12 @@
     font-weight: 700;
 }
 
-.description-primary {
+.description-primary,
+.features .cards-description {
     font-size: 1rem;
     font-weight: 400;
     margin-top: 35px;
-    line-height: 1.7rem;
+    line-height: 1.6rem;
 }
 
 /* Header styles */
@@ -115,7 +116,6 @@ main {
 
 .teams-title {
     max-width: 470px;
-    margin-bottom: 35px;
 }
 
 .teams-title .quick-list {
@@ -133,6 +133,59 @@ main {
     color: #FF900E;
     font-size: 2.8rem;
     font-weight: 700;
+}
+
+/* Feature section styles */
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 130px;
+}
+
+.features-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+}
+
+.features-description {
+    margin-top: 25px;
+}
+
+.features-contents .cards {
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features-contents .cards .cards-title {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.features-contents .cards .cards-description {
+    margin-top: 10px;
+}
+
+.ten-years-badge {
+    text-align: center;
+    width: 342px;
+    border-radius: 8px;
+    padding: 45px;
+    color: #FFF;
+    background: #FF900E;
+}
+
+.ten-years-badge h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.ten-years-badge p {
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 
